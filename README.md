@@ -10,27 +10,27 @@ tmphosts is a lightweight, temporary reverse proxy solution that allows users to
 
 1. Clone the repository:
 
-\```
+```
 git clone https://github.com/yourusername/tmphosts.git
-\```
+```
 
 2. Change to the tmphosts directory:
 
-\```
+```
 cd tmphosts
-\```
+```
 
 3. Build the Docker image:
 
-\```
+```
 docker build -t tmphosts .
-\```
+```
 
 4. Run the Docker container:
 
-\```
+```
 docker run -d --name tmphosts -p 80:80 -p 443:443 tmphosts
-\```
+```
 
 5. Modify your local hosts file to add entries pointing to the public IP address where tmphosts is running (e.g., `123.123.123.123 example.com`).
 
