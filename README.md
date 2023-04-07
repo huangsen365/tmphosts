@@ -11,7 +11,7 @@ tmphosts is a lightweight, temporary reverse proxy solution that allows users to
 1. Clone the repository:
 
 ```
-git clone https://github.com/yourusername/tmphosts.git
+git clone https://github.com/huangsen365/tmphosts.git
 ```
 
 2. Change to the tmphosts directory:
