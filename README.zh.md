@@ -44,9 +44,13 @@ docker run -d --name tmphosts -p 80:80 -p 443:443 tmphosts
 
 ### 配置
 
-1. 修改您的本地 hosts 文件，将条目指向运行 tmphosts 的公共 IP 地址（例如，`123.123.123.123 example.com`）。
+1. 修改您的本地 hosts 文件，将条目指向运行 tmphosts 的公共 IP 地址（例如，`123.123.123.123 example.com`）：
+
+   - Windows：使用具有管理员权限的文本编辑器编辑文件 `C:\Windows\System32\drivers\etc\hosts`。
+   - Linux 和 macOS：使用具有 root 或 sudo 权限的文本编辑器编辑文件 `/etc/hosts`。
 
 2. 使用它们的 HTTPS 版本访问网站（例如，`https://example.com`）。
+
 
 ## 许可
 
