@@ -46,7 +46,10 @@ docker run -d --name tmphosts -p 80:80 -p 443:443 tmphosts
 
 ### Configuration
 
-1. Modify your local hosts file to add entries pointing to the public IP address where tmphosts is running (e.g., `123.123.123.123 example.com`).
+1. Modify your local hosts file to add entries pointing to the public IP address where tmphosts is running (e.g., `123.123.123.123 example.com`):
+
+   - Windows: Edit the file `C:\Windows\System32\drivers\etc\hosts` using a text editor with administrator privileges.
+   - Linux & macOS: Edit the file `/etc/hosts` using a text editor with root or sudo privileges.
 
 2. Access the websites using their HTTPS versions (e.g., `https://example.com`).
 
