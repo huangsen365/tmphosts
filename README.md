@@ -8,6 +8,16 @@ tmphosts is a lightweight, temporary reverse proxy solution that allows users to
 
 ## Getting Started
 
+### Option 1 (Recommended): Use the pre-built image from Docker Hub
+
+1. Run the Docker container:
+
+```
+docker run -d --name tmphosts -p 80:80 -p 443:443 huangsen365/tmphosts
+```
+
+### Option 2: Build the Docker image locally
+
 1. Clone the repository:
 
 ```
@@ -32,9 +42,11 @@ docker build -t tmphosts .
 docker run -d --name tmphosts -p 80:80 -p 443:443 tmphosts
 ```
 
-5. Modify your local hosts file to add entries pointing to the public IP address where tmphosts is running (e.g., `123.123.123.123 example.com`).
+### Configuration
 
-6. Access the websites using their HTTPS versions (e.g., `https://example.com`).
+1. Modify your local hosts file to add entries pointing to the public IP address where tmphosts is running (e.g., `123.123.123.123 example.com`).
+
+2. Access the websites using their HTTPS versions (e.g., `https://example.com`).
 
 ## License
 
