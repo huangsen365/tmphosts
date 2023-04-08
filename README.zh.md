@@ -1,5 +1,7 @@
 # tmphosts
 
+[English](README.md) | [中文](README.zh.md)
+
 tmphosts 是一个轻量级的临时反向代理解决方案，允许用户通过修改本地 hosts 文件轻松地将流量重新路由到不同的主机。基于 Nginx 构建，tmphosts 还无缝处理 HTTP 到 HTTPS 的重定向，确保安全的浏览体验。
 
 ## 先决条件
